@@ -1,6 +1,6 @@
 import React from 'react'
 import Location from './Location';
-import WeatherData from './WeatherData.js';
+import WeatherData from './WeatherData';
 
 
 

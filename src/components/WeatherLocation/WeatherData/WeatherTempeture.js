@@ -6,7 +6,7 @@ import {
     FOG,
     RAIN,
     SNOW,
-} from './../constants/Weather';
+} from './../../../constants/Weather';
 //import WeatherIcons from 'react-weathericons';
 
 const icons = {
