@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+
 import {
     SUN,
     FOG,
@@ -8,7 +9,7 @@ import {
     SNOW,
 } from './../../../constants/Weather';
 //import WeatherIcons from 'react-weathericons';
-
+import './style.css';
 const icons = {
     //Aqui abajo muestra del destructunig. como la costante sun es igual a la propiedad sun solo agregamos []
     [SUN]: "icon ion-md-sunny",
@@ -33,7 +34,7 @@ const getWeatherIcon = weatherState => {
 
 
 const WeatherTemperature = ({ temperature, weatherState }) => (
-    <div>
+    <div className='weatherTemperatureCont'>
         {/* <WeatherIcons name="day-sunny" size="2x" />
         */}
         {

@@ -1,8 +1,35 @@
+
 .weatherDataCont{
-    background-color: ;
-    background: #34e89e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #f3ebeb;
+width:400px;
+height:100px ;
+line-height: 50px;
+margin: auto;
+
+}
+
+.weatherExtraInfoCont{
+width: 40%;
+
+display: inline-block;
 
 
-};
+}
+.weatherExtraInfoCont span{
+
+    font-family:'Roboto', sans-serif;
+    color: blue;
+}
+.weatherTemperatureCont{
+width:60%;
+display: inline-block;
+
+}
+.weatherLocationCont{
+    background:#f8dfdf;
+    
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 10px 10px 40px -12px rgba(0,0,0);
+    padding: 25px;
+
+}
